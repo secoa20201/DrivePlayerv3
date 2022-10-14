@@ -25,7 +25,7 @@ let getbase=()=>{
 }
 
 
-let openfluid=()=> { window.open('https://driveplyr.sh20raj.repl.co/fluid.html?id='+base)}
+let openfluid=()=> { window.open('https://secoa20201.github.io/DrivePlayerv3/fluid.html?id='+base)}
 
 
 let pmsg = 'Copy Embed Code' ;
@@ -34,7 +34,7 @@ let pmsg = 'Copy Embed Code' ;
 let embedfluid=()=> {
   prompt(pmsg,`<iframe width="560" height="315" 
 scrolling="no"
-src="https://driveplyr.sh20raj.repl.co/fluid.html?id=${base}" 
+src="https://secoa20201.github.io/DrivePlayerv3/fluid.html?id=${base}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
 gyroscope; picture-in-picture" allowfullscreen>
 </iframe>`)
@@ -42,6 +42,6 @@ gyroscope; picture-in-picture" allowfullscreen>
 
 
 let iframe=()=> {
-    s('fluid').src='https://driveplyr.sh20raj.repl.co/fluid.html?id='+base;
+    s('fluid').src='https://secoa20201.github.io/DrivePlayerv3/fluid.html?id='+base;
   
   }
